@@ -1,0 +1,40 @@
+@import './../Common/Common.scss';
+@import './../../Partials/mixins';
+
+.partners {
+    &__grid {
+        @include flex (row, wrap, center, flex-start );
+        gap: 2rem;
+        margin: auto;
+        margin-top: 5rem;
+    }
+    &__card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 15%;
+        @include device (laptop){
+            width: 22%;
+        }
+        @include device (tablet){
+            width: 30%;
+        }
+        @include device (movil){
+            width: 40%;
+        }
+    }
+    &__logo {
+        max-width: 8.4rem;
+        padding: 1rem;
+    }
+    &__img {
+        width: 100%;
+    }
+    &__title {
+        margin-bottom: 0.5rem;
+        color: var(--textSecondary);
+    }
+}
+
+

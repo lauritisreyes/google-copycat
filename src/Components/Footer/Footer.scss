@@ -1,0 +1,38 @@
+@import './../Common/Common.scss';
+@import './../../Partials/mixins.scss';
+
+.footer {
+    background-color: var(--backgroundSecondary);
+    &__content {
+        padding: 4rem 0 2rem 0;
+        @include device (movil){
+            padding: 4rem 1.5rem 2rem 1.5rem;
+        }
+    }
+    &__comment {
+        margin-bottom: 3rem;
+        font-size: 0.875rem;
+        @include device (tablet){
+            font-size: 0.75rem;
+        }
+    }
+    &__main {
+        width: 100%;
+        @include flex (row, wrap, space-between, center);
+        margin-bottom: 4rem;
+    }
+    &__ul {
+        @include flex (row, wrap, flex-start, center);
+    }
+    &__link {
+        font-size: 1rem;
+        padding: 1rem 2rem 1rem 0;
+        @include device (tablet){
+            font-size: 0.875rem;
+        }
+    }
+    &__logo {
+        width: 5.5rem;
+    }
+
+}

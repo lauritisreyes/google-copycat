@@ -1,0 +1,135 @@
+@import './../../Partials/mixins.scss';
+
+:root {
+    --blue10: #1a73e8;
+    --blue20: #174ea6;
+    --textPrimary: #3c4043;
+    --textSecondary: #263238;
+    --textMenu: #5F6368;
+    --backgroundSecondary: #f8f9fa;
+    --backgroundButton: #F1F3F4;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    @include device (movil){
+        width: 100%;
+        padding: 0 1.5rem;
+    }
+    &__medium {
+        max-width: 1000px;
+        width: 65%;
+        @include device (movil){
+            width: 100%;
+            padding: 0 1.5rem;
+        }
+    }
+    &__extra {
+        max-width: 1200px;
+        width: 80%;
+        @include device (movil){
+            width: 100%;
+            padding: 0 1.5rem;
+        }
+    }
+    &__menu {
+        width: 95%;
+        max-width: 1300px;
+        @include device (movil){
+            width: 100%;
+            padding: 0 1.5rem;
+        }
+    }
+    &__footer {
+        align-items: flex-start;
+        width: 80%;
+        max-width: 1200px;
+        @include device (movil){
+            width: 100%;
+            padding: 0 1.5rem;
+        }
+    }
+}
+.padding {
+    padding: 8rem 0;
+    &__extra {
+        padding: 12.5rem 0;
+        @include device (tablet){
+            padding: 9.25rem 0;
+        }
+        @include device (movil){
+            padding: 4.75rem 0 8rem 0;
+        }
+    }
+}
+.title {
+    font-size: 2.75rem;
+    margin-bottom: 1.5rem;
+    line-height: 3.25rem;
+    color: var(--textPrimary);
+    @include device (tablet){
+        font-size: 2rem;
+    }
+    @include device (movil){
+        font-size: 1.5rem;
+    }
+}
+.description {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: var(--textSecondary);
+    @include device (tablet){
+        font-size: 0.875rem;
+    }
+}
+.comment {
+    font-size: 2rem;
+    margin-top: 4rem;
+    color: var(--textPrimary);
+    @include device (tablet){
+        font-size: 1.5rem;
+    }
+}
+.link {
+    font-size: 1rem;
+    color: var(--blue10);
+    cursor: pointer;
+    &:hover {
+        color: var(--blue20);
+    }
+    @include device (tablet){
+        font-size: 0.875rem;
+    }
+}
+.item {
+    &__link {
+        font-size: 1rem;
+        line-height: 1.4;
+        font-weight: 500;
+        color: var(--blue10);
+        :hover {
+            color: var(--blue20);
+        }
+        @include device (tablet){
+            font-size: 0.875rem;
+        }
+    }
+    &__title {
+        font-size: 0.875rem;
+    }
+    &__description {
+        font-size: 0.875rem;
+        font-style: italic;
+        line-height: 1.5rem;
+        font-weight: 300;
+        color: var(--textPrimary);
+    }
+}

@@ -1,0 +1,23 @@
+@import './../../Partials/mixins';
+@import './../Common/Common.scss';
+
+.info {
+    text-align: center;
+    background-color: var(--backgroundSecondary);
+    padding: 0 1.5rem;
+    &__secure {
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 1.5rem;
+    }
+    &__link {
+        margin-top: 1.5rem;
+        @include flex (row, nowrap, center, center);
+        gap: 0.5rem;
+    }
+    &__arrow {
+        fill: var(--blue10);
+        width: 24px;
+        height: 24px;
+    }
+}

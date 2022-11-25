@@ -1,0 +1,65 @@
+@import './../Common/Common.scss';
+@import './../../Partials/mixins';
+
+.header {
+    margin-top: 4rem;
+    width: 100%;
+    @include flex (column, nowrap, center, center);
+    border-bottom: 1px solid rgb(218, 220, 224);
+    &__title {
+        font-size: 4.6rem;
+        font-weight: 400;
+        line-height: 7rem;
+        padding-bottom: 1rem;
+        text-align: center;
+        @include device (tablet){
+            font-size: 3.75rem;
+            line-height: 4.375rem;
+        }
+        @include device (movil){
+            font-size: 2.375rem;
+            line-height: 2.75rem;
+        }
+    }
+    &__message {
+        margin: 0.5rem 0 3rem 0;
+        position: relative;
+    }
+    &__description {
+        font-size: 1.2rem;
+        line-height: 1.625rem;
+        color: var(--textSecondary);
+        @include device (tablet){
+            font-size: 1rem;
+        }
+    }
+    &__bubbles {
+        width: 3.5rem;
+        position: relative;
+        top: -1.8rem;
+        left: -0.2rem;
+    }
+}
+.message {
+    &__text {
+        font-size: 1.5rem;
+        border: 2px solid #e8eaed;
+        border-radius: 3rem;
+        padding: 1rem 1.5rem;
+        position: relative;
+        &:after {
+            content: url(/assets/bubble-edge.svg);
+            position: absolute;
+            left: -2px;
+            right: 0;
+            width: 40px;
+            top: -15px;
+        }
+        @include device (tablet){
+            font-size: 1.2rem;
+        }
+        @include device (movil){
+            font-size: 1rem;
+        }
+    }
+}

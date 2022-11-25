@@ -1,0 +1,35 @@
+@import './../../Partials/mixins';
+@import './../Common/Common.scss';
+
+.what {
+    &__grid {
+        display: grid;
+        @include flex (row, wrap, center, flex-start );
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+    &__card {
+        @include flex ( column, nowrap, flex-start, center);
+        background-color: #f8f9fa;
+        width: 12rem;
+        height: 12rem;
+        padding: 0 1.5rem;
+        box-shadow: 0 0 rgb(0 0 0 / 0%);
+        transition: 0.2s;
+        &:hover {
+            box-shadow: 3px 4px 6px rgb(0 0 0 / 12%);
+        }
+        @include device (tablet){
+            max-width: 10.1rem;
+            height: 10.1rem;
+        }
+    }
+    &__icon {
+        width: 52px;
+        height: 52px;
+        margin: 3rem 0 1rem 0;
+        @include device (tablet){
+            margin: 2rem 0 1rem 0;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+@import './../../Partials/mixins';
+@import './../Common/Common.scss';
+
+.download {
+    &__content {
+        width: 100%;
+        border-top: 1px solid rgb(218, 220, 224);
+        @include flex (row, nowrap, center, center);
+        gap: 2rem;
+        padding: 4rem 0;
+    }
+    &__a {
+        width: 10rem;
+    }
+}
+

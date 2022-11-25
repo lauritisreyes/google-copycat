@@ -1,0 +1,102 @@
+@import './../../Partials/mixins';
+@import './../Common/Common.scss';
+
+.menu {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    background-color: white;
+    box-shadow: 0 2px 6px 0 #0000001f, inset 0 -1px 0 0 #dadce0;
+    &__content {
+        width: 100%;
+        margin: auto 1.6rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__left {
+        @include flex (row, nowrap, center, center);
+        gap: 2rem;
+    }
+    &__logo {
+        max-width: 9rem;
+    }
+    &__burger{
+        width: 24px;
+        height: 24px;
+        display: none;
+        @media screen and (max-width:1200px){
+            display: block;
+        }
+    }
+    &__nav {
+        @media screen and (max-width:1200px){
+            display: none;
+        }
+    }
+    &__store {
+        @media screen and (max-width:1200px){
+            display: none;
+        }
+    }
+    &__button {
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 0.5rem;
+        padding: 1rem 1.5rem;
+        margin: 0.5rem 0;
+        font-size: 0.875rem;
+        color: var(--textMenu);
+        cursor: pointer;
+        &:hover {
+            background-color: var(--backgroundSecondary);
+            color: #000000;
+        }
+    }
+}
+
+.nav {
+    &__ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    &__li {
+        &:first-of-type {
+            position: relative;
+            &:after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                height: 2px ;
+                background-color: #1a73e8;
+                right: 0;
+                left: 0;
+                margin: 0 1.5rem;
+            }
+            .menu__button {
+                color: #000000;
+            }
+        }
+    }
+  
+}
+
+.burger {
+    @include flex (column, nowrap, center, center);
+    gap: 3px;
+    &__rectangle {
+        position: relative;
+        width: 18px;
+        height: 2px;
+        background-color: var(--textMenu);
+    }
+}
