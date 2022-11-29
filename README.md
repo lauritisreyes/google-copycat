@@ -3,7 +3,6 @@
 
 ## Visit the Live Site
 - [https://apple-copycat.netlify.app](https://apple-copycat.netlify.app)
-- [URL-de-la-api](URL-de-la-api)
 
 ## Description 📑
 
@@ -23,7 +22,7 @@ This is a copycat of the Ok Google website using ReactJS components and designin
 ## Autor ✒️
 **Laura Reyes**
 
-* [micorreo@midominio.com](info@lauritisreyes.com)
+* [info@lauritisreyes.com](info@lauritisreyes.com)
 * [LinkedIn](https://www.linkedin.com/in/laura-reyes-sanz/)
 * [Behance](https://www.behance.net/lauritisreyes)
 * [Porfolio web](https://lauritisreyes.com)
