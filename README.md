@@ -1,5 +1,5 @@
 # Google Copycat
-![Imagen del proyecto](https://github.com/lauritisreyes/google-copycat/public/assets/screenshot-1.jpg)
+![Imagen del proyecto](https://github.com/lauritisreyes/google-copycat/public/assets/screenshot-1.png)
 
 ## Visit the Live Site
 - [https://apple-copycat.netlify.app](https://apple-copycat.netlify.app)
@@ -18,8 +18,8 @@ This is a copycat of the Ok Google website using ReactJS components and designin
 ## Preview
 Si quieres hechas un vistazo al proyecto, te recomiendo:
 
-![Captura del proyecto](https://github.com/lauritisreyes/google-copycat/public/assets/screenshot-2.jpg)
-![Captura del proyecto](https://github.com/lauritisreyes/google-copycat/public/assets/screenshot-3.jpg)
+![Captura del proyecto](https://github.com/lauritisreyes/google-copycat/public/assets/screenshot-2.png)
+![Captura del proyecto](https://github.com/lauritisreyes/google-copycat/public/assets/screenshot-3.png)
 
 ## Autor ✒️
 **Laura Reyes**
