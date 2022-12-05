@@ -1,5 +1,4 @@
 # Google Copycat
-![Imagen del proyecto](https://github.com/lauritisreyes/google-copycat/blob/main/public/assets/screenshot-1.png)
 
 ## Visit the Live Site
 - [https://apple-copycat.netlify.app](https://apple-copycat.netlify.app)
