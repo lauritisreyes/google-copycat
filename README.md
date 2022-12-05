@@ -15,10 +15,17 @@ This is a copycat of the Ok Google website using ReactJS components and designin
 ## Autor ✒️
 **Laura Reyes**
 
-* [info@lauritisreyes.com](info@lauritisreyes.com)
-* [LinkedIn](https://www.linkedin.com/in/laura-reyes-sanz/)
-* [Behance](https://www.behance.net/lauritisreyes)
-* [Porfolio web](https://lauritisreyes.com)
+- 🖥 I am a Product Designer UI/UX and Frontend Developer
+
+- 🖌 I have 4 years of experience in Graphic Design and 2 of them in UX/UI
+
+- 🌱 I am currently studying **Web development HTML, CSS & JAVASCRIPT**
+
+- 👨‍💻 Visit my live porfolio [https://www.lauritisreyes.com](https://www.lauritisreyes.com)
+
+- 👁 See my professional profile [LinkedIn](https://www.linkedin.com/in/laura-reyes-sanz/)
+
+- 📫 Say howdly: **info@lauritisreyes.com**
 
   
 ## License 📄
