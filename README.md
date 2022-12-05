@@ -10,7 +10,7 @@ This is a copycat of the Ok Google website using ReactJS components and designin
 
 ## Preview
 
-![Captura del proyecto](https://github.com/lauritisreyes/google-copycat/blob/main/public/assets/screenshot-4.png)
+![Captura del proyecto](https://github.com/lauritisreyes/google-copycat/blob/main/public/assets/screenshot-4.jpg)
 
 
 ## Autor ✒️
