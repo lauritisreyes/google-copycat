@@ -15,7 +15,7 @@ This is a copycat of the Ok Google website using ReactJS components and designin
 ## Autor ✒️
 **Laura Reyes**
 
-- 🖥 I am a Product Designer UI/UX and Frontend Developer
+- 🖥 I am a Product Designer UI/UX with Frontend skills
 
 - 🖌 I have 4 years of experience in Graphic Design and 2 of them in UX/UI
 
